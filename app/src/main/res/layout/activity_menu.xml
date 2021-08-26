@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:text="All Levels Beginners"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="20dp"
+        android:textSize="14dp"
+        android:gravity="left"
+
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/dumbelsidebend"
+            android:background="#006064">
+
+        </ImageView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:onClick="TimerSelect"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#1A237E"
+            android:textColor="#ffffff"
+            android:text="Dumbel Side Bend"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:padding="10dp"
+
+            ></Button>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#37474F"
+                android:textColor="#E0E0E0"
+                android:text="30 reps into 3 sets"
+                android:padding="10dp"
+                android:textSize="14dp"
+
+                ></TextView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--second-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/abscrunchmachine"
+            android:background="#00838F">
+
+        </ImageView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:onClick="TimerSelect"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#1A237E"
+                android:textColor="#ffffff"
+                android:text="abs crunch machine"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:padding="10dp"
+
+                ></Button>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#37474F"
+                android:textColor="#E0E0E0"
+                android:text="15 reps into 3 sets"
+                android:padding="10dp"
+                android:textSize="14dp"
+
+                ></TextView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--3rd-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/anglesidecrunch"
+            android:background="#0097A7">
+
+        </ImageView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:onClick="TimerSelect"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#1A237E"
+                android:textColor="#ffffff"
+                android:text="Angle Side Crunch"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:padding="10dp"
+
+                ></Button>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#37474F"
+                android:textColor="#E0E0E0"
+                android:text="5 to 10 minuites burn 10 calories"
+                android:padding="10dp"
+                android:textSize="14dp"
+
+                ></TextView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--4th-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/sideplank"
+            android:background="#00ACC1">
+
+        </ImageView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:onClick="TimerSelect"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#1A237E"
+                android:textColor="#ffffff"
+                android:text="Side Plank"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:padding="10dp"
+
+                ></Button>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#37474F"
+                android:textColor="#E0E0E0"
+                android:text="10 to 15 minuites burn 5 calories"
+                android:padding="10dp"
+                android:textSize="14dp"
+
+                ></TextView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--5th-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/sidecrunchmachine"
+            android:background="#00BCD4">
+
+        </ImageView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:onClick="TimerSelect"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#1A237E"
+                android:textColor="#ffffff"
+                android:text="side crunch machine"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:padding="10dp"
+
+                ></Button>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#37474F"
+                android:textColor="#E0E0E0"
+                android:text="15 to 30 minuites burn 30 calories"
+                android:padding="10dp"
+                android:textSize="14dp"
+
+                ></TextView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--6th-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/superman"
+            android:background="#BBDEFB">
+
+        </ImageView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:onClick="TimerSelect"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#1A237E"
+                android:textColor="#ffffff"
+                android:text="superman"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:padding="10dp"
+
+                ></Button>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#37474F"
+                android:textColor="#E0E0E0"
+                android:text="5 minuites burn 3 calories"
+                android:padding="10dp"
+                android:textSize="14dp"
+
+                ></TextView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/exitbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:background="#212121"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        ></Button>
+
+</LinearLayout>
+
+

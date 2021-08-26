@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="10"
+        android:background="#161C3E"
+        android:src="@drawable/logo"
+
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="THERE IS NO GAIN WITHOUT PAIN"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#161C3E"
+        android:gravity="center"
+
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="continue the workouts to get maximum results"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textColor="#C5CAE9"
+        android:background="#161C3E"
+        android:gravity="center"
+        >
+
+    </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="0.25"
+        android:text="START EXCERCISE"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#4C5067"
+        android:background="#FF4081"
+        android:gravity="center"
+        android:onClick="MenuSelect">
+
+    </Button>
+
+</LinearLayout>
